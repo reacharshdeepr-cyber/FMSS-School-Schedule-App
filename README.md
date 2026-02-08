@@ -1,3 +1,5 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # 📘 School Schedule Calculator
 
 This app helps you generate your school schedule **quickly and effortlessly**.  

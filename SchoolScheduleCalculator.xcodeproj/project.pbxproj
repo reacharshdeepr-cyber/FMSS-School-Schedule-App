@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A81D5D1D2F39377800AF0EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81D5D132F39377800AF0EE3 /* Assets.xcassets */; };
+		A81D5D1E2F39377800AF0EE3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D152F39377800AF0EE3 /* Home.swift */; };
+		A81D5D1F2F39377800AF0EE3 /* SchoolScheduleCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D182F39377800AF0EE3 /* SchoolScheduleCalculatorApp.swift */; };
+		A81D5D202F39377800AF0EE3 /* Notifications Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D172F39377800AF0EE3 /* Notifications Manager.swift */; };
+		A81D5D212F39377800AF0EE3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D192F39377800AF0EE3 /* SettingsView.swift */; };
+		A81D5D222F39377800AF0EE3 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D162F39377800AF0EE3 /* InfoView.swift */; };
+		A81D5D232F39377800AF0EE3 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D1B2F39377800AF0EE3 /* WelcomeScreen.swift */; };
+		A81D5D242F39377800AF0EE3 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D1A2F39377800AF0EE3 /* Setup.swift */; };
+		A81D5D252F39377800AF0EE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D5D142F39377800AF0EE3 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		A81D5D132F39377800AF0EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A81D5D142F39377800AF0EE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A81D5D152F39377800AF0EE3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A81D5D162F39377800AF0EE3 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A81D5D172F39377800AF0EE3 /* Notifications Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications Manager.swift"; sourceTree = "<group>"; };
+		A81D5D182F39377800AF0EE3 /* SchoolScheduleCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolScheduleCalculatorApp.swift; sourceTree = "<group>"; };
+		A81D5D192F39377800AF0EE3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A81D5D1A2F39377800AF0EE3 /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		A81D5D1B2F39377800AF0EE3 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		A83BBD1F2F36B6DB0004415B /* SchoolScheduleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolScheduleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A83BBD212F36B6DB0004415B /* SchoolScheduleCalculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SchoolScheduleCalculator;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A83BBD1C2F36B6DB0004415B /* Frameworks */ = {
@@ -29,10 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A81D5D1C2F39377800AF0EE3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A81D5D132F39377800AF0EE3 /* Assets.xcassets */,
+				A81D5D142F39377800AF0EE3 /* ContentView.swift */,
+				A81D5D152F39377800AF0EE3 /* Home.swift */,
+				A81D5D162F39377800AF0EE3 /* InfoView.swift */,
+				A81D5D172F39377800AF0EE3 /* Notifications Manager.swift */,
+				A81D5D182F39377800AF0EE3 /* SchoolScheduleCalculatorApp.swift */,
+				A81D5D192F39377800AF0EE3 /* SettingsView.swift */,
+				A81D5D1A2F39377800AF0EE3 /* Setup.swift */,
+				A81D5D1B2F39377800AF0EE3 /* WelcomeScreen.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		A83BBD162F36B6DB0004415B = {
 			isa = PBXGroup;
 			children = (
-				A83BBD212F36B6DB0004415B /* SchoolScheduleCalculator */,
+				A81D5D1C2F39377800AF0EE3 /* Sources */,
 				A83BBD202F36B6DB0004415B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +88,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A83BBD212F36B6DB0004415B /* SchoolScheduleCalculator */,
 			);
 			name = SchoolScheduleCalculator;
 			packageProductDependencies = (
@@ -109,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81D5D1D2F39377800AF0EE3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81D5D1E2F39377800AF0EE3 /* Home.swift in Sources */,
+				A81D5D1F2F39377800AF0EE3 /* SchoolScheduleCalculatorApp.swift in Sources */,
+				A81D5D202F39377800AF0EE3 /* Notifications Manager.swift in Sources */,
+				A81D5D212F39377800AF0EE3 /* SettingsView.swift in Sources */,
+				A81D5D222F39377800AF0EE3 /* InfoView.swift in Sources */,
+				A81D5D232F39377800AF0EE3 /* WelcomeScreen.swift in Sources */,
+				A81D5D242F39377800AF0EE3 /* Setup.swift in Sources */,
+				A81D5D252F39377800AF0EE3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
